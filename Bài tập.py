@@ -130,7 +130,7 @@ else:
                         y=(50*1484)+(50*1533)+(100*1786)+(100*2242)+(100*2503)+((p-400)*2587)
 t=(y*0.1)+y
 print('Tien dien la:',t)
-$ git clone https://github.com/nttuanhce/Co-so-Lap-trinh
+
 
                         
                     
