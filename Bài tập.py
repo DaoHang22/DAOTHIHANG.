@@ -1,4 +1,5 @@
 #bài 1 Vẽ sơ đồ thuật toán và viết chương trình cho bài toán: nhập vào số km đi được x, tính tiền taxi t phải trả và xuất kết quả
+
 x= float(input('Nhap so km di duoc:'))
 if x <0 :
     print('khong the tinh duoc')
