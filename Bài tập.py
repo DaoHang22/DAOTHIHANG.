@@ -45,6 +45,7 @@ else:
 #bài 4 Vẽ sơ đồ thuật toán và viết chương trình cho bài toán: nhập vào một năm t,
 #kiểm tra năm t có phải năm nhuận không và xuất kết quả. Cho ràng buộc sau: năm 
 #nhuận là năm chia hết cho 4, không chia hết cho 100 nhưng chia hết cho 400
+
 t = int(input('Nhap nam t: '))
 if t % 4 == 0: 
     if t % 100 == 0: 
@@ -58,6 +59,7 @@ else:
     print('Nam', t, 'khonng phai la nam nhuan')
 #bài 5 Vẽ sơ đồ thuật toán và viết chương trình cho bài toán: xếp loại các học sinh 
 #theo điểm trung bình với điểm trung bình nhập vào từ bàn phím, xuất ra kết quả
+
 dtb=float(input('Nhap diem trung binh:'))
 if dtb >10:
     print('Loi')
@@ -84,6 +86,7 @@ else:
 #bài 6:Vẽ sơ đồ thuật toán và viết chương trình cho bài toán: nhập vào một số tiền t
 #(là bội số của 50.000), hãy đổi số tiền ra các mệnh giá và xuất ra tương ứng với số tờ
 #tiền ít nhất. Biết rằng có các mệnh giá sau: 500.000, 200.000, 100.000, 50.000.
+
 t=int(input('Nhao so tien:'))
 t1=0
 t2=0
@@ -109,6 +112,7 @@ if t%50000==0:
 else:
     print('Loi')
 #bài 7: Vẽ sơ đồ thuật toán và viết chương trình cho bài toán: Nhập chỉ số điện p. Tính tiền điện t. Thuế giá trị gia tăng là 10%.
+
 p=int(input('Nhap chi so dien:'))
 if p<1:
     print('Loi')
