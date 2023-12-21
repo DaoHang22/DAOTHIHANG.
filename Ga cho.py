@@ -6,6 +6,7 @@ while ga <= 35:
             if 2 * ga + 4 * c == 100:
                 print("Số gà =", ga)
                 print("Số chó =", c)
-        c = c + 1
+                break
+        c=c+1
     ga=ga+1
     
