@@ -1,4 +1,5 @@
 import math
+import os
 #hàm nhập phân số
 def nhap():
     print("Nhap phan so: ")
@@ -93,7 +94,6 @@ def chia(tu1,mau1,tu2,mau2):
             tu=int( tu1 * mau2)
             mau=int(mau1*tu2)
             print('Ket qua phep chia la: {0}/{1}'.format(tu,mau))
-            toigian(tu,mau)
             lamdep(tu,mau)
     else:
         print( "Không thể chia cho 0.")
@@ -104,7 +104,7 @@ phanso2=xuat(tu2,mau2)
 uc1=UCLN(tu1,mau1)
 print (' UCLN cua {0} va {1} la {2}'.format(tu1,mau1,uc1))
 uc2=UCLN(tu2,mau2)
-print (' UCLN cua {0} va {1} la {2}'.format(tu1,mau1,uc2))
+print (' UCLN cua {0} va {1} la {2}'.format(tu2,mau2,uc2))
 bc1=bcnn(mau1,mau2)
 print (' BCNN cua {0} va {1} la {2}'.format(tu1,mau1,bc1)) 
 tuso1,mauso1= toigian(tu1,mau1)
